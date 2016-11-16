@@ -1,5 +1,5 @@
-## Macbook Settings/tools for Web Devlopment 
-So you got a new mac? This repo will contain steps/tools required for you to download to get started as a web developer.
+## Macbook Settings/Tools for Web Devlopment 
+So you got a new mac or feeling rusty about web dev? This repo will contain steps/tools to download to get started as a web developer.
 
  - [NodeJS](https://nodejs.org/en/download/)
  - [Git](https://git-scm.com/download/mac)
@@ -30,3 +30,5 @@ So you got a new mac? This repo will contain steps/tools required for you to dow
   ``$ ln -s [path to your macdown bin] [path to your usr/local/bin]
   `` 
   <br>
+  
+  
