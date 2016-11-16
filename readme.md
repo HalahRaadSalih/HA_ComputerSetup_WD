@@ -1,5 +1,5 @@
-## Computer Set up
-So you got a new laptiop? This repo will contain steps/tools required for you to download to get started as a web developer.
+## Macbook Settings/tools for Web Devlopment
+So you got a new mac? This repo will contain steps/tools required for you to download to get started as a web developer.
 
  - [NodeJS](https://nodejs.org/en/download/)
  - [Git](https://git-scm.com/download/mac)
@@ -8,14 +8,15 @@ So you got a new laptiop? This repo will contain steps/tools required for you to
  - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
  - Java stuff
  - [Generate ssh keys and add to user agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
- - Set git config globally <br>
+ - Set git config globally ( the name an the email must be between quotations)<br>
+ 	<br>
  	```
  		$ git config --global user.name [your desired name]
  	 ```
  	 ```
  	 	$ git config --global user.email [your github email]
  	 ```
- 	 
+ <br>	 
  - [Gulp](https://www.npmjs.com/package/gulp), [Tutorial](https://travismaynard.com/writing/getting-started-with-gulp).
  - [Brew install tree command](https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x/) (must install homebrew first)
  - apm (atom package manager, installed with atom).
@@ -24,3 +25,4 @@ So you got a new laptiop? This repo will contain steps/tools required for you to
  
   ``$ ln -s [path to your macdown bin] [path to your usr/local/bin]
   `` 
+  <br>
