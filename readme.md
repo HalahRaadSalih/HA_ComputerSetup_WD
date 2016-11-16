@@ -3,11 +3,9 @@ So you got a new mac or feeling rusty about web dev? This repo will contain step
 
  - [NodeJS](https://nodejs.org/en/download/)
  - [Git](https://git-scm.com/download/mac)
- - [Homebrew](http://brew.sh/)
- - [Atom](https://atom.io/)
  - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
- - [Java stuff, JSK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
  - [Generate ssh keys and add to user agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
  - Set git config globally ( the name an the email must be between quotations)<br>
  	<br>
  	```
@@ -16,9 +14,13 @@ So you got a new mac or feeling rusty about web dev? This repo will contain step
  	 ```
  	 	$ git config --global user.email [your github email]
  	 ```
- <br>	 
- - [Gulp](https://www.npmjs.com/package/gulp), [Tutorial](https://travismaynard.com/writing/getting-started-with-gulp).
+ <br>
+ - [Homebrew](http://brew.sh/)
  - [Brew install tree command](https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x/) (must install homebrew first)
+
+	 
+ - [Gulp](https://www.npmjs.com/package/gulp), [Tutorial](https://travismaynard.com/writing/getting-started-with-gulp).
+ - [Atom](https://atom.io/).
  - apm (atom package manager, installed with atom).
  - Atom packages ([script](https://github.com/rgbkrk/atom-script), [minimap](https://github.com/atom-minimap/minimap), [merge-conflicts](https://github.com/smashwilson/merge-conflicts), [activate-power-mode](https://atom.io/packages/activate-power-mode)(for fun).<br>
  <br>
@@ -31,4 +33,5 @@ So you got a new mac or feeling rusty about web dev? This repo will contain step
   `` 
   <br>
   
+ - [Java stuff, JSK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
   
