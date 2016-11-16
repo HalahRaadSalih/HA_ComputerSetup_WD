@@ -6,7 +6,7 @@ So you got a new mac? This repo will contain steps/tools required for you to dow
  - [Homebrew](http://brew.sh/)
  - [Atom](https://atom.io/)
  - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
- - Java stuff
+ - [Java stuff, JSK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
  - [Generate ssh keys and add to user agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
  - Set git config globally ( the name an the email must be between quotations)<br>
  	<br>
