@@ -1,4 +1,4 @@
-## Computer Set up 
+## Computer Set up
 So you got a new laptiop? This repo will contain steps/tools required for you to download to get started as a web developer.
 
  - NodeJS
@@ -11,5 +11,5 @@ So you got a new laptiop? This repo will contain steps/tools required for you to
  - set git config globally
  - Gulp
  - brew install tree
- - atom packages
- 
+ - atom packages (script, minimap, activate-power-mode(for fun).
+ - apm (atom package manager, install with atom)
