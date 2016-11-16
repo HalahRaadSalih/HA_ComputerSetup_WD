@@ -1,4 +1,4 @@
-## Macbook Settings/tools for Web Devlopment
+## Macbook Settings/tools for Web Devlopment 
 So you got a new mac? This repo will contain steps/tools required for you to download to get started as a web developer.
 
  - [NodeJS](https://nodejs.org/en/download/)
@@ -20,8 +20,12 @@ So you got a new mac? This repo will contain steps/tools required for you to dow
  - [Gulp](https://www.npmjs.com/package/gulp), [Tutorial](https://travismaynard.com/writing/getting-started-with-gulp).
  - [Brew install tree command](https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x/) (must install homebrew first)
  - apm (atom package manager, installed with atom).
- - Atom packages ([script](https://github.com/rgbkrk/atom-script), [minimap](https://github.com/atom-minimap/minimap), [merge-conflicts](https://github.com/smashwilson/merge-conflicts), [activate-power-mode](https://atom.io/packages/activate-power-mode)(for fun).
- - [MacDown](http://macdown.uranusjr.com/) (make sure you link the macdown bin to usr/local bin using :
+ - Atom packages ([script](https://github.com/rgbkrk/atom-script), [minimap](https://github.com/atom-minimap/minimap), [merge-conflicts](https://github.com/smashwilson/merge-conflicts), [activate-power-mode](https://atom.io/packages/activate-power-mode)(for fun).<br>
+ <br>
+    `$ apm install script minimap merge-conflicts activate-power-mode`
+ <br>
+ <br>
+ - [MacDown](http://macdown.uranusjr.com/) (in order to use this command `$ macdown [file name]`, make sure you link the macdown bin to usr/local bin using the following command :
  
   ``$ ln -s [path to your macdown bin] [path to your usr/local/bin]
   `` 
