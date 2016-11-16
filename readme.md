@@ -9,4 +9,7 @@ So you got a new laptiop? This repo will contain steps/tools required for you to
  - Java stuff
  - get ssh keys
  - set git config globally
+ - Gulp
+ - brew install tree
+ - atom packages
  
