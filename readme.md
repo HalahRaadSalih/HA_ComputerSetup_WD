@@ -13,7 +13,7 @@ According to [NodeJS](https://nodejs.org/en/) website:
 
  - **What is Chrome's V8 Javascript Engine?** [Javascript Engine](https://developers.google.com/v8/) written in C++.
 
- - **What is the difference between Javascript runtime and Javascript engine?** The engine parses the code and transform it to machine code eventually ( it interprets and executes your code, the runtime is an environment that provides built it libraries during runtime for the browser it would be the window object, DOM API, for NodeJS, it would be processes, the file system, event, http and url.
+ - **What is the difference between Javascript runtime and Javascript engine?** The engine parses the code and transform it to optimized code that can be interpreted by a browser or even embedded into an application ( it interprets and executes your code). The runtime is an environment that provides built it libraries during runtime for the browser it would be the window object, DOM API, for NodeJS, it would be processes, the file system, event, http and url.
 
  - **Event Driven?** The application control flow is determined by events. There is an architecture that listens to events and invoke a callback function once that event take place. The objects that emit events are called **emitters** and the functions listen to those events are called **listeners**.
 
