@@ -8,6 +8,8 @@ According to [NodeJS](https://nodejs.org/en/) website:
 >Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
 
 <br>
+ - **Simpler definition is:** NodeJS is a framework that is asynchronous, event-driven and let's you use JavaScript on the server side.
+
 
  - **What is Javascript Runtime?** It's an environment that provides built in libraries during runtime. For NodeJS, the libraries are  the file system, events, http ... etc.
 
