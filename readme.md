@@ -1,6 +1,13 @@
 ## MacBook Settings/Tools for Web Development
 So you got a new mac or feeling rusty about web dev? This repo will contain steps/tools to download to get started as a web developer.
 
+**Note:** Unsure whether you have one of these tools installed? Open your terminal and use this command to check:
+  ```
+  $ [tool name] --version
+  ```
+
+**Note:** All commands listed below run in the terminal.
+
 ### NodeJS
 
 According to [NodeJS](https://nodejs.org/en/) website:
@@ -23,7 +30,7 @@ According to [NodeJS](https://nodejs.org/en/) website:
  Non-Blocking means code doesn't block execution. When you're reading from a file, you can still have other code execute. More details about how this is more efficient in comparison to other java or php servers [here](http://stackoverflow.com/questions/10570246/what-is-non-blocking-or-asynchronous-i-o-in-node-js).
 
 
- - [**NPM?**](https://docs.npmjs.com/getting-started/what-is-npm) It stands for Node Package Manager. Javascript developers made Packages (libraries, modules) for you to reuse. NPM handles the process of installing and updating these packages if they're any updates. These packages are usually small.  Example of how to install a Package: 
+ - [**NPM?**](https://docs.npmjs.com/getting-started/what-is-npm) It stands for Node Package Manager. Javascript developers made Packages (libraries, modules) for you to reuse. NPM handles the process of installing and updating these packages if there are any updates. These packages are usually small.  Example of how to install a Package:
  ```
   $ npm install express
  ```
@@ -31,11 +38,16 @@ According to [NodeJS](https://nodejs.org/en/) website:
 #### Installation Steps
 Check your computer specification before you download NodeJS from [here](ttps://nodejs.org/en/download/).
 
- - [Git](https://git-scm.com/download/mac)
- - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
- - [Generate ssh keys and add to user agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+### Git & GitHub
+Install Git from [here](https://git-scm.com/download/mac).
+ - Before generating SSH key, check if you have existing keys:
+ ```$ ls -al ~/.ssh
+ ```
+ - If you don't have any keys or you want new ones, proceed to the next step.
+ - Best resource for this github itself, so I'll just link you: [Generate ssh keys and add to user agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 
- - Set git config globally ( the name an the email must be between quotations)<br>
+ - The first thing you need to do once you got git all set is to configure your identity(name, email). To do that use the command `$ git config` and do the following:
+  - Set git config globally ( the name and the email must be between quotations)<br>
  	<br>
  	```
  		$ git config --global user.name [your desired name]
@@ -43,11 +55,13 @@ Check your computer specification before you download NodeJS from [here](ttps://
  	 ```
  	 	$ git config --global user.email [your github email]
  	 ```
+
+   - to check what is the current name and email just run `$ git config user.name` , `$ git config user.email`.
+
  <br>
+ - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) (note, must install Git before oh my zsh)
  - [Homebrew](http://brew.sh/)
- - [Brew install tree command](https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x/) (must install homebrew first)
-
-
+ - [Brew install tree command](https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x/) (must install homebrew first).
  - [Gulp](https://www.npmjs.com/package/gulp), [Tutorial](https://travismaynard.com/writing/getting-started-with-gulp).
  - [Atom](https://atom.io/).
  - apm (atom package manager, installed with atom).
