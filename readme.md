@@ -41,7 +41,9 @@ Check your computer specification before you download NodeJS from [here](ttps://
 ### Git & GitHub
 Install Git from [here](https://git-scm.com/download/mac).
  - Before generating SSH key, check if you have existing keys:
- ```$ ls -al ~/.ssh
+
+ ```
+ $ ls -al ~/.ssh
  ```
  - If you don't have any keys or you want new ones, proceed to the next step.
  - Best resource for this github itself, so I'll just link you: [Generate ssh keys and add to user agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
@@ -56,7 +58,9 @@ Install Git from [here](https://git-scm.com/download/mac).
  	 	$ git config --global user.email [your github email]
  	 ```
 
-   - to check what is the current name and email just run `$ git config user.name` , `$ git config user.email`.
+   - to check what is the current name and email just run
+
+   	 `$ git config user.name` , `$ git config user.email`.
 
  <br>
  - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) (note, must install Git before oh my zsh)
