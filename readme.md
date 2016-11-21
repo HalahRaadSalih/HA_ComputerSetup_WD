@@ -20,9 +20,13 @@ According to [NodeJS](https://nodejs.org/en/) website:
  - **Event Driven?** The application control flow is determined by events. There is an architecture that listens to events and invoke a callback function once that event take place. The objects that emit events are called **emitters** and the functions listen to those events are called **listeners**.
 
  - **Non-Blocking I/O Model? How does it make NodeJS efficient and lightweight?**
+ Non-Blocking means code doesn't block execution. When you're reading from a file, you can still have other code execute. More details about how this is more efficient in comparison to other java or php servers [here](http://stackoverflow.com/questions/10570246/what-is-non-blocking-or-asynchronous-i-o-in-node-js).
 
 
- - **NPM?**
+ - [**NPM?**](https://docs.npmjs.com/getting-started/what-is-npm) It stands for Node Package Manager. Javascript developers made Packages (libraries, modules) for you to reuse. NPM handles the process of installing and updating these packages if they're any updates. These packages are usually small.  Example of how to install a Package: 
+ ```
+  $ npm install express
+ ```
 
 #### Installation Steps
 Check your computer specification before you download NodeJS from [here](ttps://nodejs.org/en/download/).
