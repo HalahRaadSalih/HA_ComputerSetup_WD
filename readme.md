@@ -81,3 +81,5 @@ Install Git from [here](https://git-scm.com/download/mac).
   <br>
 
  - [Java stuff, JSK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
+ - BABEL JS
+ - Browsify
